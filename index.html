@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="SLEK_self-learning enjoy knowledge">
+        <meta name="description" content="Let's check it out!">
+        <link rel="shortcut icon" href=""/>
+        <link href="teamb.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="main">
+            <div id="main-left">
+                <div id="menu-block">
+                    <div id="type-button-block">
+                        <button class="type-button" id="type1_0" onclick="type_click(1)">低血溶性休克</button>
+                        <button class="type-button" id="type2_0" onclick="type_click(2)">心因性休克</button>
+                        <button class="type-button" id="type3_0" onclick="type_click(3)">阻塞性休克</button>
+                        <button class="type4-button" id="type4_0" onclick="type4_click()">分佈性休克 &#9661</button>
+                        <button class="type-button type4-child displaynone" id="type4_1" onclick="type_click(4.1)">過敏性休克</button>
+                        <button class="type-button type4-child displaynone" id="type4_2" onclick="type_click(4.2)">敗血性休克</button>
+                        <button class="type-button type4-child displaynone" id="type4_3" onclick="type_click(4.3)">神經源性休克</button>
+                    </div>
+                </div>
+                <div id="cons-sym-block">
+                    <div id ="cons-sym">
+                        <div id="big-title-block">
+                            <h1 id="big-title">症狀與徵候</h1>
+                        </div>
+                        <div id = "cons-block">
+                            <h2 class="title-block">意識狀態</h2>
+                            <h3 id = "conscious" class="word-block"></h3>
+                        </div>
+                        <div id = "sym-block">
+                            <h2 class="title-block">症狀</h2>
+                            <p class="subtitle">（請以鼠標選擇部位）</p>
+                            <h3 id = "symtom" class="word-block"></h3>
+                        </div>
+                        
+                        
+                    </div>
+                    <div id="back-block">
+                        <button id="back-button">Back</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="main-right">
+                <div id="welcome-block">
+                    <h3>請選擇一種類別的休克。</h3>
+                </div>
+                <div id="body-num-block">
+                    <div id="body-block">
+                        <h3>Body Image</h3>
+                    </div>
+                    <div id = "num-block">
+                        <div class="bp number-block">
+                            <h3>收縮壓：<span id = "systolic"></span> mmHg</h3>
+                            <h3>舒張壓：<span id = "diastolic"></span> mmHg</h3>
+                        </div>
+                        <div class="number-block">
+                            <h3>中心靜脈壓：<span id = "cvp"></span> mmHg</h3>
+                        </div>
+                        <div class="number-block">
+                            <h3>呼吸頻率：<span id = "bf"></span> mmHg</h3>
+                        </div>
+                        <div class="number-block">
+                            <h3>體溫：<span id = "tem"></span> °C</h3>
+                        </div>
+                        <div class="number-block">
+                            <h3>尿量：<span id = "uo"></span> ml/hr</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+        
+        
+        <script src="teamb_var.js"></script>
+        <script src="teamb_block.js"></script>
+
+    </body>
+</html>
+    
