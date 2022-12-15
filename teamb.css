@@ -227,9 +227,11 @@ body {
 
 }
 #big-title {
+    font-size: 4vw;
     color:white;
 }
 .title-block{
+    font-size: 2.5vw;
     padding:1vw 1vw .5vw 1vw;
 
     display:flex;
@@ -239,6 +241,7 @@ body {
 
 }
 .subtitle {
+    font-size: 2.5vw;
     
 }
 .word-block{
@@ -257,7 +260,7 @@ body {
 
 .number-block{
     width:80%;
-    height:10%;
+    height:14%;
     background-color:#D0CECE;
     border-radius: 1vw;
     margin:2vw;
@@ -267,4 +270,14 @@ body {
     justify-content:center;
     align-items: center;
     
+}
+
+#conscious {
+    font-size: 3vw;
+}
+#symtom {
+    font-size: 3vw;
+}
+.number-des{
+    font-size: 3vw;
 }
