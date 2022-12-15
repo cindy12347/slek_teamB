@@ -9,6 +9,7 @@ var bf = 30;   // breath frequency
 var tem = 37;  // body tem
 var uo = 100;  // urine output
 
+
 type1_0 = document.getElementById("type1_0");
 type2_0 = document.getElementById("type2_0");
 type3_0 = document.getElementById("type3_0");
@@ -16,14 +17,19 @@ type4_0 = document.getElementById("type4_0");
 type4_1 = document.getElementById("type4_1");
 type4_2 = document.getElementById("type4_2");
 type4_3 = document.getElementById("type4_3");
+var part_choice;
 
 
     
 function type_click(choice_outside) {
+    choice = choice_outside;
+    
+    alert(choice);
+    
     switch (choice_outside) {
         case 1:
             conscious = "conscious1";
-            symtom = "symtom1";
+            symtom = "請以鼠標選擇部位";
             systolic = 1;
             diastolic = 1;
             cvp = 1; // center venous pressure
@@ -33,7 +39,7 @@ function type_click(choice_outside) {
             break;
         case 2:
             conscious = "conscious2";
-            symtom = "symtom2";
+            symtom = "請以鼠標選擇部位";
             systolic = 2;
             diastolic = 2;
             cvp = 2; // center venous pressure
@@ -43,7 +49,7 @@ function type_click(choice_outside) {
             break;
         case 3:
             conscious = "conscious3";
-            symtom = "symtom3";
+            symtom = "請以鼠標選擇部位";
             systolic = 3;
             diastolic = 3;
             cvp = 3; // center venous pressure
@@ -53,7 +59,7 @@ function type_click(choice_outside) {
             break;
         case 4.1:
             conscious = "conscious4.1";
-            symtom = "symtom4.1";
+            symtom = "請以鼠標選擇部位";
             systolic = 4.1;
             diastolic = 4.1;
             cvp = 4.1; // center venous pressure
@@ -63,7 +69,7 @@ function type_click(choice_outside) {
             break;
         case 4.2:
             conscious = "conscious4.2";
-            symtom = "symtom4.2";
+            symtom = "請以鼠標選擇部位";
             systolic = 4.2;
             diastolic = 4.2;
             cvp = 4.2; // center venous pressure
@@ -73,7 +79,7 @@ function type_click(choice_outside) {
             break;
         case 4.3:
             conscious = "conscious4.3";
-            symtom = "symtom4.3";
+            symtom = "請以鼠標選擇部位";
             systolic = 4.3;
             diastolic = 4.3;
             cvp = 4.3; // center venous pressure
@@ -100,10 +106,84 @@ function type_click(choice_outside) {
     document.getElementById("bf").innerText = bf;
     document.getElementById("tem").innerText = tem;
     document.getElementById("uo").innerText = uo;
+
+    
+    return choice_outside;
+}
+    
+
+
+function light(part) {
+    switch (choice) {
+        case 1:
+            switch (part) {
+                case 1:
+                    symtom = "symtom-1-1"
+                    break;
+                case 2:
+                    symtom = "symtom-1-2"
+                    break;
+            }
+            break;
+        case 2:
+            switch (part) {
+                case 1:
+                    symtom = "symtom-2-1"
+                    break;
+                case 2:
+                    symtom = "symtom-2-2"
+                    break;
+            }
+            break;
+        case 3:
+            switch (part) {
+                case 1:
+                    symtom = "symtom-3-1"
+                    break;
+                case 2:
+                    symtom = "symtom-3-2"
+                    break;
+            }
+            break;
+        case 4.1:
+            switch (part) {
+                case 1:
+                    symtom = "symtom-4.1-1"
+                    break;
+                case 2:
+                    symtom = "symtom-4.1-2"
+                    break;
+            }
+            break;
+        case 4.2:
+            switch (part) {
+                case 1:
+                    symtom = "symtom-4.2-1"
+                    break;
+                case 2:
+                    symtom = "symtom-4.2-2"
+                    break;
+            }
+            break;
+        case 4.3:
+            switch (part) {
+                case 1:
+                    symtom = "symtom-4.3-1"
+                    break;
+                case 2:
+                    symtom = "symtom-4.3-2"
+                    break;
+            }
+            break;
+
+    }
+    document.getElementById("symtom").innerText = symtom;
+   
 }
 
 
 function type4_click() {
+    
     type4_0.classList.toggle("type4-button-background");
     type4_1.classList.toggle("displaynone");
     type4_2.classList.toggle("displaynone");

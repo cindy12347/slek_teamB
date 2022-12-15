@@ -6,6 +6,7 @@
         <meta name="description" content="Let's check it out!">
         <link rel="shortcut icon" href=""/>
         <link href="teamb.css" rel="stylesheet">
+        <script src="teamb_body.js"></script>
         
     </head>
     <body>
@@ -51,7 +52,10 @@
                 </div>
                 <div id="body-num-block">
                     <div id="body-block">
-                        <img src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole.png?raw=true">
+                        <img id="whole-pic" style="position:absolute; width: 30vw; height:80vh;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole.png?raw=true">
+                        <img id="heart-pic" onmouseover="light(choice, 1)" style="position:absolute; width: 7vw; height:8vh; left:20vw; top:26vh; z-index: 10;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/heart.png?raw=true">
+                        <img id="lung-pic" onmouseover="light(choice, 2)" style="position:absolute; width: 9vw; height:10vh; left:16.5vw; top:25vh; z-index: 1" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/lung.png?raw=true">
+                        
                     </div>
                     <div id = "num-block">
                         <div class="bp number-block">
@@ -81,6 +85,7 @@
         
         <script src="teamb_var.js"></script>
         <script src="teamb_block.js"></script>
+        
 
     </body>
 </html>
