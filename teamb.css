@@ -37,7 +37,7 @@ body {
 #main-right{
     width:60%;
     height:100%;
-    background-color: #E7E6E6;
+    background-color: white;
     
 
     display:inline-block;
@@ -126,7 +126,7 @@ body {
     justify-content:center;
     align-items: center;
 
-    background-color: pink;
+    background-color: white;
     position: relative;
     
 
@@ -134,11 +134,12 @@ body {
 #num-block{
     width:40%;
     height:100%;
+
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-
+    
 }
 
 #type-button-block{
@@ -239,11 +240,11 @@ body {
 
 }
 #big-title {
-    font-size: 3vw;
+    font-size: 2vw;
     color:white;
 }
 .title-block{
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     padding:1vw 1vw .5vw 1vw;
 
     display:flex;
@@ -252,10 +253,7 @@ body {
     align-items: center;
 
 }
-.subtitle {
-    font-size: 2.5vw;
-    
-}
+
 .word-block{
     padding:1vw;
     width:80%;
@@ -267,32 +265,35 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items: center;
+
+    font-size:1.5vw;
 }
 
 
 .number-block{
     width:80%;
-    height:14%;
+    height:13%;
     background-color:#D0CECE;
     border-radius: 1vw;
-    margin:2vw;
 
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
+
+    font-size:1.5vw;
     
 }
 
 #conscious {
     
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 #symtom {
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 .number-des{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 #whole-pic:hover {
     
