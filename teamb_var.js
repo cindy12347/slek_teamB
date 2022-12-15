@@ -24,8 +24,6 @@ var part_choice;
 function type_click(choice_outside) {
     choice = choice_outside;
     
-    alert(choice);
-    
     switch (choice_outside) {
         case 1:
             conscious = "conscious1";
