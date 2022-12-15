@@ -74,6 +74,11 @@ body {
     border-radius: 2vw;
     font-size:1.5vw;
 }
+.type4-button:hover{
+    background-color:#223D6D;
+    color: white;
+    transition:.6s ease;
+}
 .type4-button-background{
     background-color:#223D6D;
     color: white;
@@ -244,7 +249,7 @@ body {
     color:white;
 }
 .title-block{
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     padding:1vw 1vw .5vw 1vw;
 
     display:flex;
@@ -287,10 +292,10 @@ body {
 
 #conscious {
     
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 #symtom {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 .number-des{
     font-size: 1.5vw;
