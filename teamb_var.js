@@ -114,6 +114,7 @@ function type_click(choice_outside) {
 
 
 function light(part) {
+    var part;
     switch (choice) {
         case 1:
             switch (part) {
@@ -122,6 +123,9 @@ function light(part) {
                     break;
                 case 2:
                     symtom = "symtom-1-2"
+                    break;
+                default:
+                    symtom = "請以鼠標選擇部位";
                     break;
             }
             break;
@@ -133,6 +137,9 @@ function light(part) {
                 case 2:
                     symtom = "symtom-2-2"
                     break;
+                default:
+                    symtom = "請以鼠標選擇部位";
+                    break;
             }
             break;
         case 3:
@@ -142,6 +149,9 @@ function light(part) {
                     break;
                 case 2:
                     symtom = "symtom-3-2"
+                    break;
+                default:
+                    symtom = "請以鼠標選擇部位";
                     break;
             }
             break;
@@ -153,6 +163,9 @@ function light(part) {
                 case 2:
                     symtom = "symtom-4.1-2"
                     break;
+                default:
+                    symtom = "請以鼠標選擇部位";
+                    break;
             }
             break;
         case 4.2:
@@ -162,6 +175,9 @@ function light(part) {
                     break;
                 case 2:
                     symtom = "symtom-4.2-2"
+                    break;
+                default:
+                    symtom = "請以鼠標選擇部位";
                     break;
             }
             break;
@@ -173,12 +189,20 @@ function light(part) {
                 case 2:
                     symtom = "symtom-4.3-2"
                     break;
+                default:
+                    symtom = "請以鼠標選擇部位";
+                    break;
             }
             break;
 
     }
     document.getElementById("symtom").innerText = symtom;
    
+}
+
+function lightoff() {
+    symtom = "請以鼠標選擇部位";
+    document.getElementById("symtom").innerText = symtom;
 }
 
 
