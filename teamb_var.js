@@ -10,6 +10,10 @@ var bf = 30;   // breath frequency
 var cvp = 100; // center venous pressure
 var uo = 100;  // urine output
 
+var weight;
+var sex;
+var age;
+
 var rand_num;
 var rand_left;
 
@@ -52,6 +56,9 @@ function type_click(choice_outside) {
                     bf = 14;   // breath frequency 
                     tem = 36.5;  // body tem
                     uo = 70;  // urine output
+                    weight = 75;
+                    sex = "男";
+                    age = 43;
                     break;
                 case 1:
                     conscious = "輕微焦慮";
@@ -63,6 +70,9 @@ function type_click(choice_outside) {
                     bf = 16;   // breath frequency 
                     tem = 36.8;  // body tem
                     uo = 40;  // urine output
+                    weight = 48;
+                    sex = "女";
+                    age = 32;
                     break;
                 case 2:
                     conscious = "焦慮";
@@ -74,6 +84,9 @@ function type_click(choice_outside) {
                     bf = 18;   // breath frequency 
                     tem = 36.1;  // body tem
                     uo = 45;  // urine output
+                    weight = 62;
+                    sex = "女";
+                    age = 56;
                     break;
             }
         break;
@@ -89,6 +102,9 @@ function type_click(choice_outside) {
                     bf = 22;   // breath frequency 
                     tem = 36;  // body tem
                     uo = 35;  // urine output
+                    weight = 85;
+                    sex = "男";
+                    age = 19;
                     break;
                 case 1:
                     conscious = "焦慮";
@@ -100,6 +116,9 @@ function type_click(choice_outside) {
                     bf = 24;   // breath frequency 
                     tem = 36.4;  // body tem
                     uo = 20;  // urine output
+                    weight = 53;
+                    sex = "女";
+                    age = 26;
                     break;
                 case 2:
                     conscious = "焦慮";
@@ -111,6 +130,9 @@ function type_click(choice_outside) {
                     bf = 26;   // breath frequency 
                     tem = 36.6;  // body tem
                     uo = 20;  // urine output
+                    weight = 59;
+                    sex = "男";
+                    age = 37;
                     break;
             }
         break;
@@ -126,6 +148,9 @@ function type_click(choice_outside) {
                     bf = 30;   // breath frequency 
                     tem = 35.5;  // body tem
                     uo = 10;  // urine output
+                    weight = 66;
+                    sex = "女";
+                    age = 44;
                     break;
                 case 1:
                     conscious = "混亂";
@@ -137,6 +162,9 @@ function type_click(choice_outside) {
                     bf = 32;   // breath frequency 
                     tem = 35.7;  // body tem
                     uo = 15;  // urine output
+                    weight = 81;
+                    sex = "男";
+                    age = 24;
                     break;
                 case 2:
                     conscious = "混亂";
@@ -148,6 +176,9 @@ function type_click(choice_outside) {
                     bf = 34;   // breath frequency 
                     tem = 35.3;  // body tem
                     uo = 10;  // urine output
+                    weight = 55;
+                    sex = "女";
+                    age = 38;
                     break;
             }
         break;
@@ -163,6 +194,9 @@ function type_click(choice_outside) {
                     bf = 36;   // breath frequency 
                     tem = 35.1;  // body tem
                     uo = "<5";  // urine output
+                    weight = 70;
+                    sex = "男";
+                    age = 18;
                     break;
                 case 1:
                     conscious = "嗜睡";
@@ -174,6 +208,9 @@ function type_click(choice_outside) {
                     bf = 38;   // breath frequency 
                     tem = 35;  // body tem
                     uo = "<5";  // urine output
+                    weight = 58;
+                    sex = "男";
+                    age = 26;
                     break;
                 case 2:
                     conscious = "昏迷";
@@ -185,6 +222,9 @@ function type_click(choice_outside) {
                     bf = 38;   // breath frequency 
                     tem = 34.8;  // body tem
                     uo = "<5";  // urine output
+                    weight = 62;
+                    sex = "女";
+                    age = 22;
                     break;
             }
         break;
@@ -200,6 +240,9 @@ function type_click(choice_outside) {
                     bf = 30;   // breath frequency 
                     tem = 37;  // body tem
                     uo = 10;  // urine output
+                    weight = 81;
+                    sex = "男";
+                    age = 78;
                     break;
                 case 1:
                     conscious = "嗜睡";
@@ -211,6 +254,9 @@ function type_click(choice_outside) {
                     bf = 32;   // breath frequency 
                     tem = 36.9;  // body tem
                     uo = 10;  // urine output
+                    weight = 79;
+                    sex = "女";
+                    age = 72;
                     break;
                 case 2:
                     conscious = "混亂";
@@ -222,6 +268,9 @@ function type_click(choice_outside) {
                     bf = 35;   // breath frequency 
                     tem = 36.2;  // body tem
                     uo = "<5";  // urine output
+                    weight = 74;
+                    sex = "男";
+                    age = 69;
                     break;
             }
         break;
@@ -237,6 +286,9 @@ function type_click(choice_outside) {
                     bf = 28;   // breath frequency 
                     tem = 35.9;  // body tem
                     uo = 15;  // urine output
+                    weight = 89;
+                    sex = "男";
+                    age = 59;
                     break;
                 case 1:
                     conscious = "混亂";
@@ -248,6 +300,9 @@ function type_click(choice_outside) {
                     bf = 29;   // breath frequency 
                     tem = 36.8;  // body tem
                     uo = 10;  // urine output
+                    weight = 71;
+                    sex = "女";
+                    age = 71;
                     break;
                 case 2:
                     conscious = "混亂";
@@ -259,6 +314,9 @@ function type_click(choice_outside) {
                     bf = 33;   // breath frequency 
                     tem = 36.6;  // body tem
                     uo = "<5";  // urine output
+                    weight = 78;
+                    sex = "男";
+                    age = 66;
                     break;
             }
         break;
@@ -274,6 +332,9 @@ function type_click(choice_outside) {
                     bf = 29;   // breath frequency 
                     tem = 36.9;  // body tem
                     uo = 5;  // urine output
+                    weight = 45;
+                    sex = "男";
+                    age = 17;
                     break;
                 case 1:
                     conscious = "混亂";
@@ -285,6 +346,9 @@ function type_click(choice_outside) {
                     bf = 31;   // breath frequency 
                     tem = 36.7;  // body tem
                     uo = "<5";  // urine output
+                    weight = 48;
+                    sex = "男";
+                    age = 21;
                     break;
                 case 2:
                     conscious = "混亂";
@@ -296,6 +360,9 @@ function type_click(choice_outside) {
                     bf = 32;   // breath frequency 
                     tem = 36.4;  // body tem
                     uo = 5;  // urine output
+                    weight = 69;
+                    sex = "女";
+                    age = 29;
                     break;
             }
         break;
@@ -311,6 +378,9 @@ function type_click(choice_outside) {
                     bf = 28;   // breath frequency 
                     tem = 35.8;  // body tem
                     uo = 5;  // urine output
+                    weight = 49;
+                    sex = "女";
+                    age = 50;
                     break;
                 case 1:
                     conscious = "混亂";
@@ -322,6 +392,9 @@ function type_click(choice_outside) {
                     bf = 31;   // breath frequency 
                     tem = 36.9;  // body tem
                     uo = "<5";  // urine output
+                    weight = 70;
+                    sex = "男";
+                    age = 32;
                     break;
                 case 2:
                     conscious = "混亂";
@@ -333,6 +406,9 @@ function type_click(choice_outside) {
                     bf = 35;   // breath frequency 
                     tem = 38.6;  // body tem
                     uo = "<5";  // urine output
+                    weight = 64;
+                    sex = "女";
+                    age = 46;
                     break;
             }
         break;
@@ -348,6 +424,9 @@ function type_click(choice_outside) {
                     bf = 29;   // breath frequency 
                     tem = 36.9;  // body tem
                     uo = 10;  // urine output
+                    weight = 67;
+                    sex = "男";
+                    age = 64;
                     break;
                 case 1:
                     conscious = "遲鈍";
@@ -359,6 +438,9 @@ function type_click(choice_outside) {
                     bf = 31;   // breath frequency 
                     tem = 37.4;  // body tem
                     uo = 10;  // urine output
+                    weight = 59;
+                    sex = "女";
+                    age = 68;
                     break;
                 case 2:
                     conscious = "嗜睡";
@@ -370,6 +452,9 @@ function type_click(choice_outside) {
                     bf = 33;   // breath frequency 
                     tem = 37.8;  // body tem
                     uo = "<5";  // urine output
+                    weight = 81;
+                    sex = "男";
+                    age = 27;
                     break;
             }
         break;
@@ -385,6 +470,9 @@ function type_click(choice_outside) {
                     bf = 28;   // breath frequency 
                     tem = 38.4;  // body tem
                     uo = 15;  // urine output
+                    weight = 88;
+                    sex = "男";
+                    age = 47;
                     break;
                 case 1:
                     conscious = "遲鈍";
@@ -396,6 +484,9 @@ function type_click(choice_outside) {
                     bf = 29;   // breath frequency 
                     tem = 38.9;  // body tem
                     uo = 5;  // urine output
+                    weight = 42;
+                    sex = "女";
+                    age = 50;
                     break;
                 case 2:
                     conscious = "嗜睡";
@@ -407,6 +498,9 @@ function type_click(choice_outside) {
                     bf = 34;   // breath frequency 
                     tem = 39.3;  // body tem
                     uo = "<5";  // urine output
+                    weight = 57;
+                    sex = "女";
+                    age = 73;
                     break;
             }
         break;
@@ -422,6 +516,9 @@ function type_click(choice_outside) {
                     bf = 29;   // breath frequency 
                     tem = 36.4;  // body tem
                     uo = 5;  // urine output
+                    weight = 61;
+                    sex = "女";
+                    age = 26;
                     break;
                 case 1:
                     conscious = "混亂";
@@ -433,6 +530,9 @@ function type_click(choice_outside) {
                     bf = 30;   // breath frequency 
                     tem = 36.8;  // body tem
                     uo = "<5";  // urine output
+                    weight = 65;
+                    sex = "女";
+                    age = 34;
                     break;
                 case 2:
                     conscious = "嗜睡";
@@ -444,6 +544,9 @@ function type_click(choice_outside) {
                     bf = 30;   // breath frequency 
                     tem = 36.9;  // body tem
                     uo = "<5";  // urine output
+                    weight = 63;
+                    sex = "男";
+                    age = 54;
                     break;
             }
         break;
@@ -459,6 +562,9 @@ function type_click(choice_outside) {
                     bf = 28;   // breath frequency 
                     tem = 36.8;  // body tem
                     uo = "<5";  // urine output
+                    weight = 54;
+                    sex = "女";
+                    age = 41;
                     break;
                 case 1:
                     conscious = "遲鈍";
@@ -470,6 +576,9 @@ function type_click(choice_outside) {
                     bf = 30;   // breath frequency 
                     tem = 36.9;  // body tem
                     uo = "<5";  // urine output
+                    weight = 43;
+                    sex = "女";
+                    age = 23;
                     break;
                 case 2:
                     conscious = "嗜睡";
@@ -481,6 +590,9 @@ function type_click(choice_outside) {
                     bf = 31;   // breath frequency 
                     tem = 35.8;  // body tem
                     uo = "<5";  // urine output
+                    weight = 74;
+                    sex = "男";
+                    age = 36;
                     break;
             }
         break;
@@ -494,6 +606,9 @@ function type_click(choice_outside) {
             bf = 30;   // breath frequency 
             tem = 37;  // body tem
             uo = 100;  // urine output
+            weight = 56;
+            sex = "女";
+            age = 22;
             break;
     }
     document.getElementById("conscious").innerText = conscious;
@@ -505,6 +620,10 @@ function type_click(choice_outside) {
     document.getElementById("bf").innerText = bf;
     document.getElementById("tem").innerText = tem;
     document.getElementById("uo").innerText = uo;
+    document.getElementById("weight").innerText = weight;
+    document.getElementById("sex").innerText = sex;
+    document.getElementById("age").innerText = age;
+
 
     
     return choice_outside;
@@ -520,25 +639,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "右手腕割傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -548,25 +667,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-2-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-2-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "左小腿撕裂傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -576,25 +695,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-3-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-3-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "右前臂骨折"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -608,25 +727,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "左手腕割傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -636,25 +755,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "少量瘀傷"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "大片瘀傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "右肱骨骨折且脹大"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -664,25 +783,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "右小腿骨折且脹大"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -696,25 +815,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "雙側小腿開放性骨折"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -724,25 +843,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "大片瘀傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "多處擦傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -752,25 +871,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸部割傷"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -784,25 +903,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "骨盆骨折"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -812,25 +931,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "少量瘀傷"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷且脹大"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢瘀傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -840,25 +959,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "大量擦傷"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "大片瘀傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "雙側大腿骨骨折且脹大"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -872,25 +991,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "有心雜音"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈怒張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸悶"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢水腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -900,25 +1019,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "有心雜音"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈怒張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸悶"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢水腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -928,25 +1047,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "有心雜音"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈怒張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢水腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -960,25 +1079,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "有心雜音"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈怒張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢水腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -988,25 +1107,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "有心雜音"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈怒張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢水腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1016,25 +1135,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "有心雜音"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈怒張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "左胸悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "四肢水腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1048,25 +1167,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音小聲"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "咳嗽、單側無呼吸音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部刺痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1076,25 +1195,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音小聲"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "單側無呼吸音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部刺痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1104,25 +1223,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音小聲"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "單側無呼吸音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "穿刺傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "多處割傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1136,25 +1255,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音小聲"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "大片瘀傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "大片瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "多處擦傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1164,25 +1283,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音小聲"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "大片瘀傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1192,25 +1311,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音小聲"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1224,25 +1343,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "咳嗽、呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1252,25 +1371,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-2-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-2-2"
+                            symtom = "咳血"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "胸部悶痛"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1280,25 +1399,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-3-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-3-2"
+                            symtom = "呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸靜脈擴張"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1312,25 +1431,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "咳嗽、呼吸有囉音"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1340,25 +1459,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "右小腿有傷口，整隻小腿紅腫"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1368,25 +1487,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "整個腹部疼痛"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "????"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1400,25 +1519,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "喘鳴聲"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "紅疹"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "紅疹"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "紅疹"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1428,25 +1547,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "喘鳴聲"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "紅疹"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "紅疹"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "紅疹"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1456,25 +1575,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "喘鳴聲、呼吸困難"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "紅疹"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "紅疹"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1488,25 +1607,25 @@ function light(part) {
                 case 0:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "無異狀"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "上胸椎骨折"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "瘀傷"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "瘀傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤，僅頭頸部濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1516,25 +1635,25 @@ function light(part) {
                 case 1:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸椎脫位"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "瘀傷"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "無異狀"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤，僅上胸以上濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
@@ -1544,25 +1663,25 @@ function light(part) {
                 case 2:
                     switch (part) {
                         case 1:
-                            symtom = "symtom-1-1"
+                            symtom = "心音正常"
                             break;
                         case 2:
-                            symtom = "symtom-1-2"
+                            symtom = "呼吸音正常"
                             break;
                         case 3:
-                            symtom = "symtom-1-3"
+                            symtom = "頸椎骨折"
                             break;
                         case 4:
-                            symtom = "symtom-1-4"
+                            symtom = "無異狀"
                             break;
                         case 5:
-                            symtom = "symtom-1-5"
+                            symtom = "無異狀"
                             break;
                         case 6:
-                            symtom = "symtom-1-6"
+                            symtom = "瘀傷"
                             break;
                         case 7:
-                            symtom = "symtom-1-7"
+                            symtom = "溫暖紅潤，僅頭頸部濕冷蒼白"
                             break;
                         default:
                             symtom = "請以鼠標選擇部位";
