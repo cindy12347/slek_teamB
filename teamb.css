@@ -47,11 +47,10 @@ body {
 }
 .type-button {
     width:60%;
-    height:6vw;
+    height:5vw;
     cursor: pointer;
     border: none;
-    margin-top:1vw;
-    margin-bottom:1vw;
+    margin-top:.5vw;
     background-color:lightblue;
     color: #223D6D;
     border-radius: 2vw;
@@ -64,11 +63,10 @@ body {
 }
 .type1-button {
     width:60%;
-    height:6vw;
+    height:5vw;
     cursor: pointer;
     border: none;
-    margin-top:1vw;
-    margin-bottom:1vw;
+    margin-top:.5vw;
     background-color:white;
     color: #223D6D;
     border-radius: 2vw;
@@ -81,11 +79,10 @@ body {
 }
 .type2-button {
     width:60%;
-    height:6vw;
+    height:5vw;
     cursor: pointer;
     border: none;
-    margin-top:1vw;
-    margin-bottom:1vw;
+    margin-top:.5vw;
     background-color:white;
     color: #223D6D;
     border-radius: 2vw;
@@ -98,11 +95,10 @@ body {
 }
 .type3-button {
     width:60%;
-    height:6vw;
+    height:5vw;
     cursor: pointer;
     border: none;
-    margin-top:1vw;
-    margin-bottom:1vw;
+    margin-top:.5vw;
     background-color:white;
     color: #223D6D;
     border-radius: 2vw;
@@ -115,11 +111,10 @@ body {
 }
 .type4-button {
     width:60%;
-    height:6vw;
+    height:5vw;
     cursor: pointer;
     border: none;
-    margin-top:1vw;
-    margin-bottom:1vw;
+    margin-top:.5vw;
     background-color:white;
     color: #223D6D;
     border-radius: 2vw;
@@ -213,6 +208,7 @@ body {
 #type-button-block{
     width:100%;
     height:100%;
+    overflow:scroll;
     display:flex;
     flex-direction: column;
     justify-content:center;
