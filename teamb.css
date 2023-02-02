@@ -370,7 +370,21 @@ body {
 #heart-pic:hover {
     filter: drop-shadow(0 0 0.75rem crimson);
 }
-
 #lung-pic:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+#head-pic:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+#breast-pic:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+#ab-pic:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+#skin-pic:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+#limbs-pic:hover {
     filter: drop-shadow(0 0 0.75rem crimson);
 }

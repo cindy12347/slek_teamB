@@ -43,444 +43,444 @@ function type_click(choice_outside) {
         case 1.1:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "輕微焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 122;
+                    diastolic = 85;
+                    hr = 85;
+                    cvp = 10; // center venous pressure
+                    bf = 14;   // breath frequency 
+                    tem = 36.5;  // body tem
+                    uo = 70;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious2";
+                    conscious = "輕微焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 2;
-                    diastolic = 2;
-                    hr = 2;
-                    cvp = 2; // center venous pressure
-                    bf = 2;   // breath frequency 
-                    tem = 2;  // body tem
-                    uo = 2;  // urine output
+                    systolic = 110;
+                    diastolic = 77;
+                    hr = 90;
+                    cvp = 7; // center venous pressure
+                    bf = 16;   // breath frequency 
+                    tem = 36.8;  // body tem
+                    uo = 40;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 3;
-                    diastolic = 3;
-                    hr = 3;
-                    cvp = 3; // center venous pressure
-                    bf = 3;   // breath frequency 
-                    tem = 3;  // body tem
-                    uo = 3;  // urine output
+                    systolic = 102;
+                    diastolic = 76;
+                    hr = 94;
+                    cvp = 8; // center venous pressure
+                    bf = 18;   // breath frequency 
+                    tem = 36.1;  // body tem
+                    uo = 45;  // urine output
                     break;
             }
         break;
         case 1.2:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 105;
+                    diastolic = 78;
+                    hr = 106;
+                    cvp = 6; // center venous pressure
+                    bf = 22;   // breath frequency 
+                    tem = 36;  // body tem
+                    uo = 35;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 100;
+                    diastolic = 75;
+                    hr = 115;
+                    cvp = 5; // center venous pressure
+                    bf = 24;   // breath frequency 
+                    tem = 36.4;  // body tem
+                    uo = 20;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 95;
+                    diastolic = 72;
+                    hr = 118;
+                    cvp = 4; // center venous pressure
+                    bf = 26;   // breath frequency 
+                    tem = 36.6;  // body tem
+                    uo = 20;  // urine output
                     break;
             }
         break;
         case 1.3:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 80;
+                    diastolic = 60;
+                    hr = 125;
+                    cvp = 3; // center venous pressure
+                    bf = 30;   // breath frequency 
+                    tem = 35.5;  // body tem
+                    uo = 10;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 78;
+                    diastolic = 55;
+                    hr = 130;
+                    cvp = 3; // center venous pressure
+                    bf = 32;   // breath frequency 
+                    tem = 35.7;  // body tem
+                    uo = 15;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 75;
+                    diastolic = 49;
+                    hr = 137;
+                    cvp = 2; // center venous pressure
+                    bf = 34;   // breath frequency 
+                    tem = 35.3;  // body tem
+                    uo = 10;  // urine output
                     break;
             }
         break;
         case 1.4:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 70;
+                    diastolic = 45;
+                    hr = 143;
+                    cvp = 2; // center venous pressure
+                    bf = 36;   // breath frequency 
+                    tem = 35.1;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
+                    systolic = 68;
+                    diastolic = 44;
+                    hr = 145;
                     cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    bf = 38;   // breath frequency 
+                    tem = 35;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "昏迷";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 65;
+                    diastolic = 45;
+                    hr = 144;
+                    cvp = 0; // center venous pressure
+                    bf = 38;   // breath frequency 
+                    tem = 34.8;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 2.1:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "遲鈍";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 82;
+                    diastolic = 58;
+                    hr = 128;
+                    cvp = 18; // center venous pressure
+                    bf = 30;   // breath frequency 
+                    tem = 37;  // body tem
+                    uo = 10;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 78;
+                    diastolic = 57;
+                    hr = 134;
+                    cvp = 20; // center venous pressure
+                    bf = 32;   // breath frequency 
+                    tem = 36.9;  // body tem
+                    uo = 10;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 75;
+                    diastolic = 56;
+                    hr = 137;
+                    cvp = 22; // center venous pressure
+                    bf = 35;   // breath frequency 
+                    tem = 36.2;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 2.2:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "遲鈍";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 77;
+                    diastolic = 53;
+                    hr = 122;
+                    cvp = 16; // center venous pressure
+                    bf = 28;   // breath frequency 
+                    tem = 35.9;  // body tem
+                    uo = 15;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 66;
+                    diastolic = 48;
+                    hr = 124;
+                    cvp = 19; // center venous pressure
+                    bf = 29;   // breath frequency 
+                    tem = 36.8;  // body tem
+                    uo = 10;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 69;
+                    diastolic = 49;
+                    hr = 130;
+                    cvp = 22; // center venous pressure
+                    bf = 33;   // breath frequency 
+                    tem = 36.6;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 3.1:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 82;
+                    diastolic = 60;
+                    hr = 118;
+                    cvp = 18; // center venous pressure
+                    bf = 29;   // breath frequency 
+                    tem = 36.9;  // body tem
+                    uo = 5;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 78;
+                    diastolic = 60;
+                    hr = 123;
+                    cvp = 20; // center venous pressure
+                    bf = 31;   // breath frequency 
+                    tem = 36.7;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 76;
+                    diastolic = 57;
+                    hr = 128;
+                    cvp = 21; // center venous pressure
+                    bf = 32;   // breath frequency 
+                    tem = 36.4;  // body tem
+                    uo = 5;  // urine output
                     break;
             }
         break;
         case 3.2:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "焦慮";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 80;
+                    diastolic = 58;
+                    hr = 118;
+                    cvp = 19; // center venous pressure
+                    bf = 28;   // breath frequency 
+                    tem = 35.8;  // body tem
+                    uo = 5;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 79;
+                    diastolic = 57;
+                    hr = 128;
+                    cvp = 22; // center venous pressure
+                    bf = 31;   // breath frequency 
+                    tem = 36.9;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 75;
+                    diastolic = 56;
+                    hr = 130;
+                    cvp = 22; // center venous pressure
+                    bf = 35;   // breath frequency 
+                    tem = 38.6;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 3.3:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 79;
+                    diastolic = 60;
+                    hr = 125;
+                    cvp = 19; // center venous pressure
+                    bf = 29;   // breath frequency 
+                    tem = 36.9;  // body tem
+                    uo = 10;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "遲鈍";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 76;
+                    diastolic = 55;
+                    hr = 131;
+                    cvp = 20; // center venous pressure
+                    bf = 31;   // breath frequency 
+                    tem = 37.4;  // body tem
+                    uo = 10;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 70;
+                    diastolic = 46;
+                    hr = 135;
+                    cvp = 21; // center venous pressure
+                    bf = 33;   // breath frequency 
+                    tem = 37.8;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 4.1:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 85;
+                    diastolic = 25;
+                    hr = 119;
+                    cvp = 5; // center venous pressure
+                    bf = 28;   // breath frequency 
+                    tem = 38.4;  // body tem
+                    uo = 15;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "遲鈍";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 76;
+                    diastolic = 22;
+                    hr = 121;
+                    cvp = 4; // center venous pressure
+                    bf = 29;   // breath frequency 
+                    tem = 38.9;  // body tem
+                    uo = 5;  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 72;
+                    diastolic = 20;
+                    hr = 124;
+                    cvp = 3; // center venous pressure
+                    bf = 34;   // breath frequency 
+                    tem = 39.3;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 4.2:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 81;
+                    diastolic = 24;
+                    hr = 118;
+                    cvp = 6; // center venous pressure
+                    bf = 29;   // breath frequency 
+                    tem = 36.4;  // body tem
+                    uo = 5;  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 77;
+                    diastolic = 21;
+                    hr = 129;
+                    cvp = 5; // center venous pressure
+                    bf = 30;   // breath frequency 
+                    tem = 36.8;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 71;
+                    diastolic = 20;
+                    hr = 134;
+                    cvp = 3; // center venous pressure
+                    bf = 30;   // breath frequency 
+                    tem = 36.9;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
         case 4.3:
             switch(rand_left) {
                 case 0:
-                    conscious = "conscious1";
+                    conscious = "混亂";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 86;
+                    diastolic = 26;
+                    hr = 80;
+                    cvp = 6; // center venous pressure
+                    bf = 28;   // breath frequency 
+                    tem = 36.8;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 1:
-                    conscious = "conscious1";
+                    conscious = "遲鈍";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 80;
+                    diastolic = 23;
+                    hr = 82;
+                    cvp = 4; // center venous pressure
+                    bf = 30;   // breath frequency 
+                    tem = 36.9;  // body tem
+                    uo = "<5";  // urine output
                     break;
                 case 2:
-                    conscious = "conscious1";
+                    conscious = "嗜睡";
                     symtom = "請以鼠標選擇部位";
-                    systolic = 1;
-                    diastolic = 1;
-                    hr = 1;
-                    cvp = 1; // center venous pressure
-                    bf = 1;   // breath frequency 
-                    tem = 1;  // body tem
-                    uo = 1;  // urine output
+                    systolic = 79;
+                    diastolic = 22;
+                    hr = 85;
+                    cvp = 4; // center venous pressure
+                    bf = 31;   // breath frequency 
+                    tem = 35.8;  // body tem
+                    uo = "<5";  // urine output
                     break;
             }
         break;
