@@ -14,9 +14,18 @@
             <div id="main-left">
                 <div id="menu-block">
                     <div id="type-button-block">
-                        <button class="type-button" id="type1_0" onclick="type_click(1)">低血溶性</button>
-                        <button class="type-button" id="type2_0" onclick="type_click(2)">心因性休克</button>
-                        <button class="type-button" id="type3_0" onclick="type_click(3)">阻塞性休克</button>
+                        <button class="type1-button" id="type1_0" onclick="type1_click()">低血溶性 &#9660</button>
+                        <button class="type-button type1-child displaynone" id="type1_1" onclick="type_click(1.1)">第一級</button>
+                        <button class="type-button type1-child displaynone" id="type1_2" onclick="type_click(1.2)">第二級</button>
+                        <button class="type-button type1-child displaynone" id="type1_3" onclick="type_click(1.3)">第三級</button>
+                        <button class="type-button type1-child displaynone" id="type1_4" onclick="type_click(1.4)">第四級</button>
+                        <button class="type2-button" id="type2_0" onclick="type2_click()">心因性休克 &#9660</button>
+                        <button class="type-button type2-child displaynone" id="type2_1" onclick="type_click(2.1)">心臟衰竭</button>
+                        <button class="type-button type2-child displaynone" id="type2_2" onclick="type_click(2.2)">心肌梗塞</button>
+                        <button class="type3-button" id="type3_0" onclick="type3_click()">阻塞性休克 &#9660</button>
+                        <button class="type-button type3-child displaynone" id="type3_1" onclick="type_click(3.1)">張力性氣胸</button>
+                        <button class="type-button type3-child displaynone" id="type3_2" onclick="type_click(3.2)">心包填塞</button>
+                        <button class="type-button type3-child displaynone" id="type3_3" onclick="type_click(3.3)">肺動脈衰塞</button>
                         <button class="type4-button" id="type4_0" onclick="type4_click()">分佈性休克 &#9660</button>
                         <button class="type-button type4-child displaynone" id="type4_1" onclick="type_click(4.1)">過敏性休克</button>
                         <button class="type-button type4-child displaynone" id="type4_2" onclick="type_click(4.2)">敗血性休克</button>
@@ -53,23 +62,31 @@
                 <div id="body-num-block">
                     <div id="body-block">
                         <img id="whole-pic" style="position:absolute; width: 70vw; height:80vh;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole_new.png?raw=true">
-                        <img id="heart-pic" onmouseover="light(1)" onmouseout="lightoff()" style="position:absolute; width: 200vw; height:100vh; left:20vw; top:26vh; z-index: 10;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/heart_new.png?raw=true">
+                        <!--<img id="heart-pic" onmouseover="light(1)" onmouseout="lightoff()" style="position:absolute; width: 300vw; height:100vh; left:20vw; top:26vh; z-index: 10;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/heart_new.png?raw=true">
                         <img id="lung-pic" onmouseover="light(2)" onmouseout="lightoff()" style="position:absolute; width: 9vw; height:10vh; left:16.5vw; top:25vh; z-index: 1" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/lung_new.png?raw=true">
-                        
+                        <img id="head-pic" onmouseover="light(3)" onmouseout="lightoff()" style="position:absolute; width: 200vw; height:100vh; left:20vw; top:26vh; z-index: 10;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/head_new.png?raw=true">
+                        <img id="breast-pic" onmouseover="light(4)" onmouseout="lightoff()" style="position:absolute; width: 9vw; height:10vh; left:16.5vw; top:25vh; z-index: 1" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/breast_new.png?raw=true">
+                        <img id="ab-pic" onmouseover="light(5)" onmouseout="lightoff()" style="position:absolute; width: 200vw; height:100vh; left:20vw; top:26vh; z-index: 10;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/ab_new.png?raw=true">
+                        <img id="limbs-pic" onmouseover="light(6)" onmouseout="lightoff()" style="position:absolute; width: 9vw; height:10vh; left:16.5vw; top:25vh; z-index: 1" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/limbs_new.png?raw=true">
+                        <img id="skin-pic" onmouseover="light(7)" onmouseout="lightoff()" style="position:absolute; width: 200vw; height:100vh; left:20vw; top:26vh; z-index: 10;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/skin_new.png?raw=true">
+                        -->
                     </div>
                     <div id = "num-block">
+                        <div class="number-block" style="margin-bottom:.8vw">
+                            <p class="number-des">體溫：<span id = "tem"></span> °C</p>
+                        </div>
                         <div class="bp number-block" style="margin-bottom:.8vw">
                             <p class="number-des">收縮壓：<span id = "systolic"></span> mmHg</p>
                             <p class="number-des">舒張壓：<span id = "diastolic"></span> mmHg</p>
                         </div>
                         <div class="number-block" style="margin-bottom:.8vw">
-                            <p class="number-des">中心靜脈壓：<span id = "cvp"></span> mmHg</p>
+                            <p class="number-des">心率：<span id = "hr"></span> 下/分鐘</p>
                         </div>
                         <div class="number-block" style="margin-bottom:.8vw">
                             <p class="number-des">呼吸頻率：<span id = "bf"></span> mmHg</p>
                         </div>
                         <div class="number-block" style="margin-bottom:.8vw">
-                            <p class="number-des">體溫：<span id = "tem"></span> °C</p>
+                            <p class="number-des">中心靜脈壓：<span id = "cvp"></span> mmH2O</p>
                         </div>
                         <div class="number-block">
                             <p class="number-des">尿量：<span id = "uo"></span> ml/hr</p>

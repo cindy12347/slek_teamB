@@ -52,12 +52,63 @@ body {
     border: none;
     margin-top:1vw;
     margin-bottom:1vw;
-    background-color:white;
+    background-color:lightblue;
     color: #223D6D;
     border-radius: 2vw;
     font-size:1.5vw;
 }
 .type-button:hover{
+    background-color:#223D6D;
+    color: white;
+    transition:.6s ease;
+}
+.type1-button {
+    width:60%;
+    height:6vw;
+    cursor: pointer;
+    border: none;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    background-color:white;
+    color: #223D6D;
+    border-radius: 2vw;
+    font-size:1.5vw;
+}
+.type1-button:hover{
+    background-color:#223D6D;
+    color: white;
+    transition:.6s ease;
+}
+.type2-button {
+    width:60%;
+    height:6vw;
+    cursor: pointer;
+    border: none;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    background-color:white;
+    color: #223D6D;
+    border-radius: 2vw;
+    font-size:1.5vw;
+}
+.type2-button:hover{
+    background-color:#223D6D;
+    color: white;
+    transition:.6s ease;
+}
+.type3-button {
+    width:60%;
+    height:6vw;
+    cursor: pointer;
+    border: none;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    background-color:white;
+    color: #223D6D;
+    border-radius: 2vw;
+    font-size:1.5vw;
+}
+.type3-button:hover{
     background-color:#223D6D;
     color: white;
     transition:.6s ease;
@@ -69,7 +120,7 @@ body {
     border: none;
     margin-top:1vw;
     margin-bottom:1vw;
-    background-color:red;
+    background-color:white;
     color: #223D6D;
     border-radius: 2vw;
     font-size:1.5vw;
@@ -82,6 +133,18 @@ body {
 .type4-button-background{
     background-color:#223D6D;
     color: white;
+}
+.type1-child:hover {
+    background-color:lightblue;
+    color: #223D6D
+}
+.type2-child:hover {
+    background-color:lightblue;
+    color: #223D6D
+}
+.type3-child:hover {
+    background-color:lightblue;
+    color: #223D6D
 }
 .type4-child:hover {
     background-color:lightblue;
