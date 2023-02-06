@@ -1502,7 +1502,7 @@ function light(part) {
                             symtom = "整個腹部疼痛"
                             break;
                         case 6:
-                            symtom = "????"
+                            symtom = "無異狀"
                             break;
                         case 7:
                             symtom = "溫暖紅潤"
