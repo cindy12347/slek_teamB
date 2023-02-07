@@ -381,9 +381,6 @@ body {
 .number-des{
     font-size: 1.5vw;
 }
-#whole-pic:hover {
-    
-}
 
 #heart-pic:hover {
     filter: drop-shadow(0 0 0.5rem crimson);
@@ -400,7 +397,7 @@ body {
 #ab-pic:hover {
     filter: drop-shadow(0 0 0.5rem crimson);
 }
-#skin-pic:hover {
+#body-block #hand-pic:hover + #whole-pic {
     filter: drop-shadow(0 0 0.5rem crimson);
 }
 #limbs-pic:hover {
