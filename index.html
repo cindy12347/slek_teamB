@@ -11,6 +11,23 @@
         <script type="text/javascript" src="./script/jquery.imagemapster.js"></script>
     </head>
     <body>
+        <style>
+            @media only screen and (max-width: 600px) {
+                #body-id {
+                    width:60%;
+                }
+            }
+            @media only screen and (min-width: 601px) and (max-width:1000px) {
+                #body-id {
+                    width:50%;
+                }
+            }
+            @media only screen and (min-width: 1001px) {
+                #body-id {
+                    width:75%;
+                }
+            }
+        </style>
         <div class="main">
             <div id="main-left">
                 <div id="menu-block">
@@ -68,7 +85,7 @@
                 <div id="body-num-block">
                     <div id="body-block">
 
-                        <div style="width:75%">
+                        <div id="body-id">
                             <img src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole.jpg?raw=true" alt="Workplace" usemap="#beatles-map4" class="maparea" width="100%">
                         </div>
                         <map name="beatles-map4">
@@ -122,13 +139,13 @@
 
         <script>
             $(function(){
-                $('img').mapster("highlight", heart);
+                'use strict';
 
                 // apply mapster to all images
                 $('img').mapster({
                     enableAutoResizeSupport: true,
                     autoResize: true,
-                    autoResizeDelay: 0,
+                    autoResizeDelay: 5,
                     autoResizeDuration: 20,
                     onAutoResize: function () {
                     console.log('auto resized!');
