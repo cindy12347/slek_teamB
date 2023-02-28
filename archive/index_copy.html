@@ -6,9 +6,7 @@
         <meta name="description" content="這是SLEK發行的互動式教具呦！">
         <link rel="shortcut icon" href="https://github.com/cindy12347/SLEK_teamB/blob/main/src/slek.png?raw=true"/>
         <link href="teamb.css" rel="stylesheet">
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/es6-promise/dist/es6-promise.auto.min.js"></script>
-        <script type="text/javascript" src="./dist/jquery.3.5.1.min.js"></script>
-        <script type="text/javascript" src="./dist/jquery.imagemapster.js"></script>
+        
     </head>
     <body>
         <div class="main">
@@ -67,18 +65,16 @@
                 </div>
                 <div id="body-num-block">
                     <div id="body-block">
-
-                        <div style="width:75%">
-                            <img src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole.jpg?raw=true" alt="Workplace" usemap="#beatles-map4" class="maparea" width="100%">
-                        </div>
-                        <map name="beatles-map4">
-                            <area onmouseover="light(2)" onmouseout="lightoff()"  shape="poly" coords="357,344,357,336,354,328,354,321,352,314,350,308,350,302,351,296,350,289,349,282,348,275,345,269,341,264,335,260,329,261,328,267,323,271,319,277,315,282,311,288,307,294,302,299,299,305,295,311,291,318,286,325,283,332,279,340,277,347,274,355,273,362,270,369,269,376,268,383,267,390,266,397,266,405,265,412,264,420,263,427,263,434,263,441,266,447,272,448,278,447,283,445,288,442,293,439,298,436,304,435,307,431,313,430,319,429,324,427,330,427,336,425,342,424,347,422,350,418,352,413,355,408,356,401,356,394,356,386,356,380,357,374,357,368,358,362,359,356,362,352,383,352,385,358,387,365,389,371,389,378,388,385,387,392,385,398,383,405,383,412,388,415,392,419,397,422,402,424,408,426,414,426,420,425,426,425,432,426,438,429,443,432,448,435,453,439,458,443,461,448,466,451,471,449,473,443,474,436,474,429,474,423,474,416,473,410,472,404,471,397,470,390,469,383,468,377,466,370,465,364,465,358,463,351,460,345,458,339,456,332,453,326,451,319,448,313,445,307,441,302,437,296,433,291,429,286,424,282,420,277,414,273,408,269,402,266,396,263,390,265,386,269,385,274,384,279,383,284,382,289,381,295,380,300,380,306,379,312,378,318,378,324,379,330,380,335,381,340,382,345" href="#" />
-                            <area shape="rect" coords="36,46,121,131" href="#" />
-                            <area shape="rect" coords="113,76,198,161" href="#" />
-                            <area shape="rect" coords="192,50,277,135" href="#" />
-                            <area shape="rect" coords="262,60,347,145" href="#" />
-                        </map>
-
+                        
+                        <img id="heart-pic" onmouseover="light(1)" onmouseout="lightoff()" style="position:absolute; width: 3vw; height:8.3022vw; left:19.5vw; top:28.2vh; z-index: 8;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/heart.png?raw=true">
+                        <img id="lung-pic" onmouseover="light(2)" onmouseout="lightoff()" style="position:absolute; width: 8.7vw; height:12.038vw; left:16.6vw; top:21vh; z-index: 7" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/lung.png?raw=true">
+                        <img id="head-pic" onmouseover="light(3)" onmouseout="lightoff()" style="position:absolute; width: 6.3vw; height:16.2584vw; left:17.7vw; top:10.55vh; z-index: 1;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/head.png?raw=true">
+                        <img id="breast-pic" onmouseover="light(4)" onmouseout="lightoff()" style="position:absolute; width: 10.45vw; height:17.3654vw; left:15.9vw; top:22.65vh; z-index: 6" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/breast.png?raw=true">
+                        <img id="ab-pic" onmouseover="light(5)" onmouseout="lightoff()" style="position:absolute; width: 10.25vw; height:23.799vw; left:15.8vw; top:34.4vh; z-index: 6;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/ab.png?raw=true">
+                        <img id="limbs-pic" onmouseover="light(6)" onmouseout="lightoff()" style="position:absolute; width: 72.3vw; height:99.6264vw; left:-15.22vw; top:19.2vh; z-index: 1" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/limbs.png?raw=true">
+                        <img id="hand-pic" onmouseover="light(7)" onmouseout="lightoff()" style="position:absolute; width: 30.3vw; height:42.6871vw; left:5.98vw; top:23.89vh; z-index: 2;" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/hand.png?raw=true">
+                        <img id="whole-pic" style="position:absolute; width: 30vw; height:110.696vw; z-index:0" src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole.png?raw=true">
+                        
                     </div>
                     <div id = "num-block">
                         <div class="number-block" style="margin-bottom:.8vw">
@@ -111,34 +107,8 @@
         
         <script src="teamb_var.js"></script>
         <script src="teamb_block.js"></script>
-
-        <script>
-            $(function(){
-                
         
-                // apply mapster to all images
-                $('img').mapster({
-                    enableAutoResizeSupport: true,
-                    autoResize: true,
-                    autoResizeDelay: 0,
-                    autoResizeDuration: 20,
-                    onAutoResize: function () {
-                    console.log('auto resized!');
-                    },
-                    highlight: true,
-                    selected: null,
-		            isSelectable: false,
-                });
-                $('area').mapster('highlight')
 
-            })
-        </script>
-
-
-
-
-
-    
     </body>
 </html>
     

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/es6-promise/dist/es6-promise.auto.min.js"></script>
+    <script type="text/javascript" src="./dist/jquery.3.5.1.min.js"></script>
+    <script type="text/javascript" src="./dist/jquery.imagemapster.js"></script>
+</head>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<div style="width:80%">
+	<img src="https://github.com/cindy12347/SLEK_teamB/blob/main/src/whole.jpg?raw=true" alt="Workplace" usemap="#beatles-map4" class="maparea" width="100%">
+</div>
+<map name="beatles-map4">
+	<area shape="poly" coords="357,344,357,336,354,328,354,321,352,314,350,308,350,302,351,296,350,289,349,282,348,275,345,269,341,264,335,260,329,261,328,267,323,271,319,277,315,282,311,288,307,294,302,299,299,305,295,311,291,318,286,325,283,332,279,340,277,347,274,355,273,362,270,369,269,376,268,383,267,390,266,397,266,405,265,412,264,420,263,427,263,434,263,441,266,447,272,448,278,447,283,445,288,442,293,439,298,436,304,435,307,431,313,430,319,429,324,427,330,427,336,425,342,424,347,422,350,418,352,413,355,408,356,401,356,394,356,386,356,380,357,374,357,368,358,362,359,356,362,352,383,352,385,358,387,365,389,371,389,378,388,385,387,392,385,398,383,405,383,412,388,415,392,419,397,422,402,424,408,426,414,426,420,425,426,425,432,426,438,429,443,432,448,435,453,439,458,443,461,448,466,451,471,449,473,443,474,436,474,429,474,423,474,416,473,410,472,404,471,397,470,390,469,383,468,377,466,370,465,364,465,358,463,351,460,345,458,339,456,332,453,326,451,319,448,313,445,307,441,302,437,296,433,291,429,286,424,282,420,277,414,273,408,269,402,266,396,263,390,265,386,269,385,274,384,279,383,284,382,289,381,295,380,300,380,306,379,312,378,318,378,324,379,330,380,335,381,340,382,345" href="#" />
+	<area shape="rect" coords="36,46,121,131" href="#" />
+	<area shape="rect" coords="113,76,198,161" href="#" />
+	<area shape="rect" coords="192,50,277,135" href="#" />
+	<area shape="rect" coords="262,60,347,145" href="#" />
+</map>
+
+<script>
+	$(function(){
+		'use strict';
+
+        // apply mapster to all images
+        $('img').mapster({
+          enableAutoResizeSupport: true,
+          autoResize: true,
+          autoResizeDelay: 0,
+          autoResizeDuration: 0,
+          onAutoResize: function () {
+          console.log('auto resized!');
+          },
+		  highlight: true,
+          selected: null,
+		  isSelectable: false,
+        });
+		$('area').mapster('highlight')
+	})
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
