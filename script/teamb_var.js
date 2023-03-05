@@ -154,7 +154,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 78;
                     diastolic = 55;
                     hr = 130;
