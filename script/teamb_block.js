@@ -50,8 +50,10 @@ back_button.addEventListener("click", function(){
     
     menu_block.style.display = "flex";
     cons_sym_block.style.display = "none";
+
     welcome_block.style.display = "flex";
     body_num_block.style.display = "block";
+    
     main_left.style.width = "40%";
     main_right.style.width = "60%";
     type_button.style.height = "6vw";

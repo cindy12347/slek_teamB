@@ -190,6 +190,7 @@ body {
     align-items: center;
     background-repeat: no-repeat;
     
+    
 
     background-color: white;
     
@@ -403,4 +404,14 @@ body {
 }
 #limbs-pic:hover {
     filter: drop-shadow(0 0 0.5rem crimson);
+}
+
+#body-id {
+    overflow:initial;
+    min-width: 1px;
+    min-height: 1px;
+}
+
+#body-img{
+    
 }
