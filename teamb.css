@@ -217,6 +217,8 @@ body {
     align-items: center;
     transition: 1s ease;
 
+    
+
 }
 
 
@@ -407,11 +409,6 @@ body {
 }
 
 #body-id {
-    overflow:initial;
-    min-width: 1px;
-    min-height: 1px;
+    overflow-y: scroll;
 }
 
-#body-img{
-    
-}
