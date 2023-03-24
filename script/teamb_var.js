@@ -48,7 +48,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "輕微焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 122;
                     diastolic = 85;
                     hr = 85;
@@ -62,7 +62,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "輕微焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 110;
                     diastolic = 77;
                     hr = 90;
@@ -76,7 +76,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 102;
                     diastolic = 76;
                     hr = 94;
@@ -94,7 +94,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 105;
                     diastolic = 78;
                     hr = 106;
@@ -108,7 +108,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 100;
                     diastolic = 75;
                     hr = 115;
@@ -122,7 +122,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 95;
                     diastolic = 72;
                     hr = 118;
@@ -140,7 +140,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 80;
                     diastolic = 60;
                     hr = 125;
@@ -168,7 +168,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 75;
                     diastolic = 49;
                     hr = 137;
@@ -186,7 +186,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 70;
                     diastolic = 45;
                     hr = 143;
@@ -200,7 +200,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 68;
                     diastolic = 44;
                     hr = 145;
@@ -214,7 +214,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "昏迷";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 65;
                     diastolic = 45;
                     hr = 144;
@@ -232,7 +232,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "遲鈍";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 82;
                     diastolic = 58;
                     hr = 128;
@@ -246,7 +246,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 78;
                     diastolic = 57;
                     hr = 134;
@@ -260,7 +260,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 75;
                     diastolic = 56;
                     hr = 137;
@@ -278,7 +278,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "遲鈍";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 77;
                     diastolic = 53;
                     hr = 122;
@@ -292,7 +292,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 66;
                     diastolic = 48;
                     hr = 124;
@@ -306,7 +306,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 69;
                     diastolic = 49;
                     hr = 130;
@@ -324,7 +324,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 82;
                     diastolic = 60;
                     hr = 118;
@@ -338,7 +338,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 78;
                     diastolic = 60;
                     hr = 123;
@@ -352,7 +352,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 76;
                     diastolic = 57;
                     hr = 128;
@@ -370,7 +370,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "焦慮";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 80;
                     diastolic = 58;
                     hr = 118;
@@ -384,7 +384,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 79;
                     diastolic = 57;
                     hr = 128;
@@ -398,7 +398,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 75;
                     diastolic = 56;
                     hr = 130;
@@ -416,7 +416,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 79;
                     diastolic = 60;
                     hr = 125;
@@ -430,7 +430,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "遲鈍";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 76;
                     diastolic = 55;
                     hr = 131;
@@ -444,7 +444,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 70;
                     diastolic = 46;
                     hr = 135;
@@ -462,7 +462,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 85;
                     diastolic = 25;
                     hr = 119;
@@ -476,7 +476,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "遲鈍";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 76;
                     diastolic = 22;
                     hr = 121;
@@ -490,7 +490,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 72;
                     diastolic = 20;
                     hr = 124;
@@ -508,7 +508,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 81;
                     diastolic = 24;
                     hr = 118;
@@ -522,7 +522,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 77;
                     diastolic = 21;
                     hr = 129;
@@ -536,7 +536,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 71;
                     diastolic = 20;
                     hr = 134;
@@ -554,7 +554,7 @@ function type_click(choice_outside) {
             switch(rand_left) {
                 case 0:
                     conscious = "混亂";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 86;
                     diastolic = 26;
                     hr = 80;
@@ -568,7 +568,7 @@ function type_click(choice_outside) {
                     break;
                 case 1:
                     conscious = "遲鈍";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 80;
                     diastolic = 23;
                     hr = 82;
@@ -582,7 +582,7 @@ function type_click(choice_outside) {
                     break;
                 case 2:
                     conscious = "嗜睡";
-                    symtom = "請以鼠標選擇部位";
+                    symtom = "請以游標選擇部位";
                     systolic = 79;
                     diastolic = 22;
                     hr = 85;
@@ -660,7 +660,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -688,7 +688,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -716,7 +716,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -748,7 +748,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -776,7 +776,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -804,7 +804,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -836,7 +836,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -864,7 +864,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -892,7 +892,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -924,7 +924,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -952,7 +952,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -980,7 +980,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1012,7 +1012,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1040,7 +1040,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1068,7 +1068,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1100,7 +1100,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1128,7 +1128,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1156,7 +1156,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1188,7 +1188,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1216,7 +1216,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1244,7 +1244,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1276,7 +1276,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1304,7 +1304,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1332,7 +1332,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1364,7 +1364,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1392,7 +1392,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1420,7 +1420,7 @@ function light(part) {
                             symtom = "濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1452,7 +1452,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1480,7 +1480,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1508,7 +1508,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1540,7 +1540,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1568,7 +1568,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1596,7 +1596,7 @@ function light(part) {
                             symtom = "溫暖紅潤"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1628,7 +1628,7 @@ function light(part) {
                             symtom = "溫暖紅潤，僅頭頸部濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1656,7 +1656,7 @@ function light(part) {
                             symtom = "溫暖紅潤，僅上胸以上濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1684,7 +1684,7 @@ function light(part) {
                             symtom = "溫暖紅潤，僅頭頸部濕冷蒼白"
                             break;
                         default:
-                            symtom = "請以鼠標選擇部位";
+                            symtom = "請以游標選擇部位";
                             break;
                     }
                     break;
@@ -1697,7 +1697,7 @@ function light(part) {
 }
 
 function lightoff() {
-    symtom = "請以鼠標選擇部位";
+    symtom = "請以游標選擇部位";
     document.getElementById("symtom").innerText = symtom;
 }
 function type1_click() {
