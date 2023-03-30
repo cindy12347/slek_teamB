@@ -624,6 +624,8 @@ function type_click(choice_outside) {
     document.getElementById("sex").innerText = sex;
     document.getElementById("age").innerText = age;
 
+    window.dispatchEvent(new Event('resize'));
+
 
     
     return choice_outside;
